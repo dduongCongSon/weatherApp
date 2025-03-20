@@ -10,6 +10,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.example.weatherweb.ui.screen.components.ActionBar
+import com.example.weatherweb.ui.screen.components.AirQuality
 import com.example.weatherweb.ui.screen.components.DayliForecast
 import com.example.weatherweb.ui.theme.ColorBackground
 
@@ -31,6 +32,8 @@ fun WeatherScreen() {
             ActionBar()
             Spacer(modifier = Modifier.height(12.dp))
             DayliForecast()
+            Spacer(modifier = Modifier.height(16.dp))
+            AirQuality()
         }
     }
 }
